@@ -33,6 +33,10 @@ public class Weapon {
     public void setDurability(int durability) { this.durability = durability; }
 
     // Methods
+    public void attack(Weapon weapon) {
+        this.durability -= weapon.damage;
+        weapon.durability -= this.damage;
+    }
 
     // Unique Methods
     @Override
