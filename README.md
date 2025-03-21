@@ -8,7 +8,7 @@ About Main:
 
 About SubWeaponTemplate:
   - SubWeaponTemplate is a template with a few comments that
-    help you section your code in a way that is standart to
+    help you section your code in a way that is standard to
     this project.
 
 Advice:
