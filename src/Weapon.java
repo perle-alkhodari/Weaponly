@@ -20,18 +20,6 @@ public class Weapon {
         this("Unknown", 0, 0, 0);
     }
 
-    // Getters
-    public String getMaterial() { return material; }
-    public double getWeight() { return weight; }
-    public int getDamage() { return damage; }
-    public int getDurability() { return durability; }
-
-    // Setters
-    public void setMaterial(String material) { this.material = material; }
-    public void setWeight(double weight) { this.weight = weight; }
-    public void setDamage(int damage) { this.damage = damage; }
-    public void setDurability(int durability) { this.durability = durability; }
-
     // Methods
     public void attack(Weapon weapon) {
         this.durability -= weapon.damage;
@@ -48,4 +36,16 @@ public class Weapon {
                 ", durability=" + durability +
                 '}';
     }
+
+    // Getters
+    public String getMaterial() { return material; }
+    public double getWeight() { return weight; }
+    public int getDamage() { return damage; }
+    public int getDurability() { return durability; }
+
+    // Setters
+    public void setMaterial(String material) { this.material = material; }
+    public void setWeight(double weight) { this.weight = weight; }
+    public void setDamage(int damage) { this.damage = damage; }
+    public void setDurability(int durability) { this.durability = durability; }
 }
