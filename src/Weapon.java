@@ -5,19 +5,21 @@ public class Weapon {
     protected double weight;        // The weight of the weapon in kgs
     protected int damage;           // How much damage a weapon can inflict on anything
     protected int durability;       // How much damage a weapon can take before getting destroyed
+    protected double hitsPerSecond; // How many times a weapon can preform an attack per second
 
     // Static variables
     public static String is = "Weapon";
 
     // Constructors
-    public Weapon(String material, double weight, int damage, int durability) {
+    public Weapon(String material, double weight, int damage, int durability, double hitsPerSecond) {
         this.material = material;
         this.weight = weight;
         this.damage = damage;
         this.durability = durability;
+        this.hitsPerSecond = hitsPerSecond;
     }
     public Weapon() {
-        this("Unknown", 0, 0, 0);
+        this("Unknown", 0, 0, 0, 0);
     }
 
     // Methods
