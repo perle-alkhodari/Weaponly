@@ -1,4 +1,4 @@
-public class SubShieldTemplate {
+public class SubShieldTemplate extends Shield{
     // Member Variables
     // Constructors
     // Methods

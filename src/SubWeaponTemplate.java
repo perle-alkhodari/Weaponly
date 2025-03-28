@@ -1,4 +1,4 @@
-public class SubWeaponTemplate {
+public class SubWeaponTemplate extends Weapon{
     // Member Variables
     // Constructors
     // Methods
