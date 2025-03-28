@@ -20,9 +20,13 @@ public class Player {
 
     // Getters
     public int getHealth() { return health; }
-    public int getShield() { return defence; }
+    public int getDefence() { return defence; }
+    public Shield getShield() {return shield;}
+    public Weapon getWeapon() {return weapon;}
 
     // Setters
-    public void setHealth() {this.health = health;}
+    public void setHealth(int health) {this.health = health;}
     public void setShield(int defence) {this.defence = defence;}
+    public void setShield(Shield shield) {this.shield = shield;}
+    public void setWeapon(Weapon weapon) {this.weapon = weapon;}
 }
