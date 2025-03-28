@@ -1,10 +1,10 @@
 public class Player {
     // Private Member Variables
-    int health;
-    int defence;
-    int totalDefence;
-    Shield shield;
-    Weapon weapon;
+    private int health;
+    private int defence;
+    private int totalDefence;
+    private Shield shield;
+    private Weapon weapon;
 
     // Constructors
     public Player(int health, int defence, Shield shield, Weapon weapon) {

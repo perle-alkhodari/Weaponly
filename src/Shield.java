@@ -1,9 +1,9 @@
 public class Shield {
     // Private Member Variables
-    String material;
-    double weight;
-    int durability;
-    int defence;
+    private String material;
+    private double weight;
+    private int durability;
+    private int defence;
 
     // Constructors
     public Shield(String material, double weight, int durability, int defence) {
